@@ -107,7 +107,7 @@ The Power BI dashboard includes:
 
 ## 📸 Dashboard Preview
 
-![SAP MM Procurement Analytics Dashboard](Dashboard_Screenshots/SAP_MM_Dashboard_Screenshot.png)
+![SAP MM Procurement Analytics Dashboard](SAP_MM_Procurement_Analystics_Dashboard.png)
 
 ---
 
