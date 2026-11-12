@@ -1,14 +1,12 @@
-# 📊 SAP MM Procurement Analytics Dashboard – SAP HANA & Power BI
+# 📊 SAP MM Procurement Analytics Dashboard – Power BI
 
 ## 📌 Project Overview
 
-This project focuses on analyzing SAP MM (Materials Management) procurement data using **SAP HANA and Microsoft Power BI** to generate meaningful business insights into procurement spending, vendor performance, purchase orders, material quantities, plant-wise expenditure, and purchasing trends.
+This project focuses on analyzing SAP MM (Materials Management) procurement data using **Microsoft Excel and Power BI** to generate meaningful business insights into procurement spending, vendor performance, purchase orders, material quantities, plant-wise expenditure, and purchasing trends.
 
-The project involves retrieving procurement data from SAP HANA using SQL queries and connecting it to Power BI to develop an interactive procurement analytics dashboard.
+The procurement data was obtained from SAP HANA and downloaded in Excel format. The Excel dataset was then imported into Power BI for data preparation, analysis, and interactive dashboard development.
 
-The dashboard helps monitor procurement activities, analyze spending patterns, evaluate vendor contributions, and support data-driven business decisions.
-
-**Note:** The dataset used for this portfolio project is synthetically generated for learning and analysis purposes. It is not an actual SAP system export.
+The dashboard helps monitor procurement activities, understand spending patterns, analyze vendor contributions, and support data-driven business decisions.
 
 ---
 
@@ -20,8 +18,8 @@ The dashboard helps monitor procurement activities, analyze spending patterns, e
 - Analyze plant-wise procurement performance.
 - Monitor monthly procurement spending trends.
 - Understand material-wise purchasing quantities.
-- Analyze gross amount, discount amount, tax amount, and net amount.
-- Monitor purchase order status and delivery quantities.
+- Compare gross amount, discount amount, tax amount, and net amount.
+- Analyze purchase order status and delivery quantities.
 - Track key performance indicators (KPIs) through interactive dashboards.
 - Provide meaningful insights to support procurement decision-making.
 
@@ -29,36 +27,35 @@ The dashboard helps monitor procurement activities, analyze spending patterns, e
 
 ## 🏗️ Data Source & Data Processing
 
-This project follows an end-to-end procurement data analysis workflow using SAP HANA and Power BI.
+This project follows a procurement data analysis workflow using SAP HANA, Microsoft Excel, and Power BI.
 
 ### ⭐ Data Extraction – SAP HANA
 
-- Accessed procurement data using SAP HANA.
-- Created SQL queries to retrieve relevant procurement information.
-- Extracted purchase order, vendor, material, plant, and company code details.
-- Prepared the required data for Power BI analysis.
+- Accessed procurement-related data from SAP HANA.
+- Retrieved the required procurement information.
+- Downloaded the extracted data in Excel format.
+- Used procurement details for further analysis.
 
-### 📚 Data Components
+### 📚 Dataset Details
 
-- **Purchase Order Data** – Contains PO number, PO item, document date, quantities, pricing, gross amount, discount, tax, and net amount.
-- **Vendor Master** – Contains vendor codes and vendor names.
-- **Material Master** – Contains material codes, descriptions, and material groups.
-- **Plant Master** – Contains plant codes, plant names, and company codes.
-- **Company Master** – Contains company codes and company names.
+- **Purchase Order Data** – PO number, PO item, document date, quantities, pricing, gross amount, discount, tax, and net amount.
+- **Vendor Details** – Vendor codes and vendor names.
+- **Material Details** – Material codes, descriptions, and material groups.
+- **Plant Details** – Plant codes, plant names, and company codes.
+- **Company Details** – Company codes and company names.
 
-### 🔄 Data Integration – Power BI
+### 🔄 Data Preparation & Visualization – Power BI
 
-- Connected SAP HANA procurement data to Power BI.
-- Imported the required data for analysis.
-- Established relationships between procurement and master data tables.
+- Imported the Excel procurement dataset into Power BI.
+- Performed data preparation and cleaning using Power Query.
+- Established relationships between relevant data tables.
 - Created DAX measures for KPI calculations.
-- Developed interactive visualizations and slicers.
+- Developed interactive charts, KPI cards, and slicers.
+- Analyzed procurement data to identify useful business insights.
 
 ---
 
 ## 📈 Dashboard Features
-
-The Power BI dashboard includes:
 
 ### ⭐ KPI Cards
 
@@ -93,21 +90,19 @@ The Power BI dashboard includes:
 
 ## 🛠️ Tools & Technologies
 
-- **SAP MM (Materials Management)**
-- **SAP HANA**
-- **SAP HANA SQL**
-- **Microsoft Power BI**
-- **Power Query**
-- **DAX (Data Analysis Expressions)**
-- **Microsoft Excel**
-- **Data Modeling**
-- **Data Visualization**
+- **SAP HANA** – Procurement data source
+- **Microsoft Excel** – Data export and preparation
+- **Microsoft Power BI** – Dashboard development
+- **Power Query** – Data cleaning and transformation
+- **DAX** – KPI calculations and analytical measures
+- **Data Modeling** – Table relationships
+- **Data Visualization** – Interactive business reporting
 
 ---
 
 ## 📸 Dashboard Preview
 
-![SAP MM Procurement Analytics Dashboard](SAP_MM_Procurement_Analystics_Dashboard.png)
+![SAP MM Procurement Analytics Dashboard](Dashboard_Screenshots/SAP_MM_Dashboard_Screenshot.png)
 
 ---
 
@@ -120,17 +115,17 @@ The dashboard helps identify:
 - How procurement spending varies across different plants.
 - Monthly procurement spending patterns and trends.
 - Which material groups have the highest purchase quantities.
-- The relationship between gross amount, discounts, taxes, and net amount.
-- The distribution of purchase orders across different statuses.
+- Differences between gross amount and net amount.
+- Purchase order distribution across different statuses.
 - Opportunities to improve procurement spending visibility and purchasing decisions.
 
 ---
 
 ## 🚀 Conclusion
 
-This project demonstrates how **SAP HANA, SQL, Power BI, Power Query, and DAX** can be combined to transform procurement data into meaningful business insights.
+This project demonstrates how **SAP HANA, Microsoft Excel, Power Query, Power BI, and DAX** can be used to transform procurement data into meaningful business insights.
 
-By connecting SAP HANA data with Power BI, the project provides an interactive dashboard for analyzing procurement expenditure, vendor performance, purchasing quantities, and purchase order activities.
+By extracting procurement data from SAP HANA in Excel format and importing it into Power BI, the project provides an interactive dashboard for analyzing procurement expenditure, vendor performance, purchasing quantities, and purchase order activities.
 
 The dashboard supports better procurement monitoring, spending analysis, and data-driven business decisions.
 
